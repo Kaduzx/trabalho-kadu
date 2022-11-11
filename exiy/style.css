@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./IMG/Nissan2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+header > h1{
+    color: black;
+    font-size: 10vh;
+    padding-top: 60vh;
+    padding-left: 15vh;
+}
+.menu{
+    padding: 10vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.secao{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+}
+.secao > h2{
+    padding-left: 50vh;
+    padding-top: 10vh;
+}
